@@ -53,9 +53,9 @@ More information about installation, please check:
 
 Preprocessing additional data for DGMG model.
 
-'''
+```
 python preprocess.py -d EGFR -m ZINC -tf ./EGFR_data/EGFR_train.txt -vf ./EGFR_data/EGFR_val.txt
-'''
+```
 
 ## Step 2: Training or fine-tuning
 
@@ -63,9 +63,9 @@ Training or fine-tuning DGMG model for molecule generation.
 
 The script will save model each 50 epochs!
 
-'''
+```
 python fine_tune.py -d EGFR -m ZINC -o canonical -tf ./EGFR_data/EGFR_DGMG_train.txt -vf ./EGFR_data/EGFR_DGMG_val.txt
-'''
+```
 
 ## Step 3: Generating molecules
 
@@ -73,17 +73,17 @@ Generate molecules with pretrained model or fine-tuned model.
 
 Just use a pre-trained model:
 
-'''
+```
 python generate_mols.py
 
 python generate_mols.py -m ZINC
-'''
+```
 
 Use a fine-tuning model
 
-'''
+```
 python generate_mols.py -d EGFR -p ./saved_model/EGFR/50_checkpoint.pth -s ./saved_model/EGFR/settings.txt
-'''
+```
 
 ### Cite
 ```
@@ -97,6 +97,6 @@ python generate_mols.py -d EGFR -p ./saved_model/EGFR/50_checkpoint.pth -s ./sav
 
 ### Acknowledge
 
-[Dgllife](https://github.com/awslabs/dgl-lifesci)
+[DGL-LifeSci: An Open-Source Toolkit for Deep Learning on Graphs in Life Science](https://github.com/awslabs/dgl-lifesci)
 
-[Dgl](https://github.com/dmlc/dgl)
+[Dgl:DEEP GRAPH LIBRARY](https://github.com/dmlc/dgl)
