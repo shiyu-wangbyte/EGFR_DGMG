@@ -38,9 +38,13 @@ print(dgllife.__version__)
 ```
 
 More information about installation, please check:
+
 [Install pytorch](https://pytorch.org/get-started/locally/)
+
 [Install dgl](https://www.dgl.ai/pages/start.html)
+
 [Install dgllife](https://lifesci.dgl.ai/index.html)
+
 [Install rdkit](https://www.rdkit.org/docs/Install.html)
 
 
