@@ -95,7 +95,7 @@ python generate_mols.py -d EGFR -p ./saved_model/EGFR/50_checkpoint.pth -s ./sav
 }
 ```
 
-### Acknowledge
+### Reference
 
 [DGL-LifeSci: An Open-Source Toolkit for Deep Learning on Graphs in Life Science](https://github.com/awslabs/dgl-lifesci)
 
