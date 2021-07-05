@@ -1,7 +1,8 @@
 # EGFR_DGMG
  A pretrained model for molecules generation
  
- In this Repo, we show how to fine-tune a pre-trained model and build your model for molecules generation.
+ In this repo, we show how to fine-tune a pre-trained model and build your own model for molecules generation.
+
  For more information, click [Here](https://docs.dgl.ai/tutorials/models/3_generative_model/5_dgmg.html)
 
 ## Installation
