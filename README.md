@@ -1,2 +1,4 @@
 # EGFR_DGMG
- a pretrained model for molecules generation
+ A pretrained model for molecules generation
+ 
+ In this Repo, 
