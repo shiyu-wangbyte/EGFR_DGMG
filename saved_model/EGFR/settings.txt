@@ -1,0 +1,17 @@
+seed	0
+warmup_epochs	10
+dataset	EGFR
+model	ZINC
+order	canonical
+train_file	EGFR_DGMG_train.txt
+val_file	EGFR_DGMG_val.txt
+log_dir	./training_results/EGFR_canonical_2021-07-03_23-33-50
+num_processes	32
+master_ip	127.0.0.1
+master_port	12345
+node_hidden_size	128
+num_propagation_rounds	2
+lr	0.0001
+dropout	0.2000
+nepochs	800
+batch_size	1
