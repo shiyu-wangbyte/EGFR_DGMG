@@ -8,7 +8,6 @@
 ## Installation
 ### Requirements
 
-we test all script on opensuse 15.1.
 
 ```
 conda create my_dgl python=3.7
