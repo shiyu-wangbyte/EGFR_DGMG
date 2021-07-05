@@ -19,7 +19,7 @@ conda install -c dglteam dgl
 pip install dgllife
 ```
 
-##Verifying successful installation
+## Verifying successful installation
 
 ```python
 import dgllife
@@ -46,6 +46,17 @@ More information about installation, please check:
 [Install dgllife](https://lifesci.dgl.ai/index.html)
 
 [Install rdkit](https://www.rdkit.org/docs/Install.html)
+
+# Usage
+
+## step 1: Preprocessing your own data
+
+
+## Step 2: Training or fine-tuning
+
+
+## Step 3: Generating molecules
+
 
 
 
