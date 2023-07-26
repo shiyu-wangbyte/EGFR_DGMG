@@ -87,10 +87,10 @@ python generate_mols.py -d EGFR -p ./saved_model/EGFR/50_checkpoint.pth -s ./sav
 ### Cite
 ```
 @article{,
-    title={},
-    author={},
-    year={2021},
-    journal={}
+    title={Discovery of Novel Epidermal Growth Factor Receptor (EGFR) Inhibitors Using Computational Approaches},
+    author={Huo, Donghui;Wang, Shiyu;Kong, Yue;Qin, Zijian;Yan, Aixia},
+    year={2022},
+    journal={Journal of Chemical Information and Modeling}
 }
 ```
 
